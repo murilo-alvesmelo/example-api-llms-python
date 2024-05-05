@@ -1,7 +1,7 @@
 
 # Example api llms python
 
-This repository utilizes the FastAPI framework integrated with the language models from Hugging Face Transformers.
+This repository utilizes the FastAPI framework integrated with the language models from Hugging Face Transformers 🤗 .
 
 ## Running Locally
 
