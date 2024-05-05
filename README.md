@@ -1,50 +1,50 @@
 
 # Example api llms python
 
-Este repositorio utilza o framework FastAPI integrada com os modelos de linguagem da Hugging Face Transformers
+This repository utilizes the FastAPI framework integrated with the language models from Hugging Face Transformers.
 
-## Rodando localmente
+## Running Locally
 
-Clone o projeto
+Clone the project
 
 ```bash
   git clone https://github.com/murilo-alvesmelo/example-api-llms-python.git
 ```
 
-Entre no diretório do projeto
+Navigate to the project directory
 
 ```bash
   cd example-api-llms-python.git
 ```
 
-Crie o ambiente virtual python
+Create a Python virtual environment
 
 ```bash
   python3 -m venv .venv
 ```
 
-Instale as dependencias
+Install the dependencies
 
 ```bash
   pip install -r requirements.txt 
 ```
 
-Execute a aplicação(Sempre verifique se você esta dentro do ambiente virutal)
+Run the application (Always make sure you are inside the virtual environment)
 
 ```bash
   uvicorn main:app --reload
 ```
 
-## Docs
+## Documentation
 
-Voce pode acessar [localhost](http://127.0.0.1:8000/docs) para visualizar as rotas
+You can access [localhost](http://127.0.0.1:8000/docs) to view the routes.
 
-## Requerimentos
+## Requirements
 
 - python3
 - fastapi
 
-## Demostração
+## Demo
 
 <img src="https://github.com/murilo-alvesmelo/example-api-llms-python/assets/83835393/1a0f4a42-44cc-4312-afab-fce17ce39c19" heigth="500"/>
 
